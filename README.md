@@ -3,7 +3,7 @@
 
 ![image](./assets/3.PNG)
 
-# App Registrations
+# Entra App Registrations
 
 - **Register new app via `App Registrations`**
 
@@ -40,26 +40,48 @@
 
 ![image](./assets/11.PNG)
 
-# Create Tenant
+# Create Work-Email User (Global admin)
 
-- **Go to `Entra ID` > `Manage Tenants`**
+- **Go to `Entra ID` > `Users`**
 
-![image](./assets/12.PNG)
-![image](./assets/13.PNG)
-![image](./assets/14.PNG)
-![image](./assets/15.PNG)
-
-- **Update current user email**
-
-![image](./assets/16.PNG)
-![image](./assets/17.PNG)
-![image](./assets/18.PNG)
-![image](./assets/19.PNG)
+![image](./assets/29.PNG)
+![image](./assets/30.PNG)
+![image](./assets/31.PNG)
 
 # Create MS Teams App
 
 - **Go to https://dev.teams.microsoft.com/**
 - **Login using EntraID user email**
-- **Reset password if needed**
 
 ![image](./assets/20.PNG)
+
+- **Create new app**
+
+![image](./assets/21.PNG)
+![image](./assets/22.PNG)
+
+- **Refer to `Azure` > `App Registrations` > `<YOUR_APP>` > `Client ID` for The Client ID below**
+
+![image](./assets/23.PNG)
+
+- **Create Bot in `App features`**
+
+![image](./assets/24.PNG)
+
+- **Refer to `Azure` > `App Registrations` > `<YOUR_APP>` > `Client ID` for The Bot ID below**
+
+![image](./assets/25.PNG)
+
+- **Set Permissions**
+
+![image](./assets/26.PNG)
+
+- **Publish app**
+
+![image](./assets/27.PNG)
+![image](./assets/28.PNG)
+
+# Admin App Approval
+- **Access to https://admin.teams.microsoft.com**
+- **Must use Global Admin user to login and approve**
+
