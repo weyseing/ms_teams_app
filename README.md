@@ -1,7 +1,11 @@
-# Setup Subscription
+# Setup Subscription & Resource Group
 - **Create a subcription plan**
 
 ![image](./assets/3.PNG)
+
+- **Create Resource Group**
+
+![image](./assets/37.PNG)
 
 # Entra App Registrations
 
@@ -48,6 +52,17 @@
 ![image](./assets/30.PNG)
 ![image](./assets/31.PNG)
 
+# Microsoft 365 Business Premium License
+- **Access to https://admin.microsoft.com**
+- **Purchase Microsoft 365 Business Premium License via 1-Month trial**
+
+![image](./assets/32.PNG)
+
+- **Grant license to user**
+
+![image](./assets/33.PNG)
+![image](./assets/34.PNG)
+
 # Create MS Teams App
 
 - **Go to https://dev.teams.microsoft.com/**
@@ -84,4 +99,24 @@
 # Admin App Approval
 - **Access to https://admin.teams.microsoft.com**
 - **Must use Global Admin user to login and approve**
+
+![image](./assets/35.PNG)
+
+# Install MS Teams App
+- **Login MS Teams App to install**
+
+![image](./assets/36.PNG)
+![image](./assets/38.PNG)
+
+# Messaging Endpoint
+- **Start up this docker container** via `docker compose up -d`
+- **Expose to public network via** `ssh -R 80:localhost:5000 serveo.net`
+
+![image](./assets/40.PNG)
+
+- **Update Messaging Endpoint in `Azure Bot`**
+
+![image](./assets/39.PNG)
+
+
 

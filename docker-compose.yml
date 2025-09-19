@@ -1,0 +1,14 @@
+services:
+  django_app:
+    container_name: django_app
+    build: .
+    volumes:
+      - .:/app
+    ports:
+      - 5000:8000 
+    networks:
+      global-net:
+
+networks:
+  global-net:
+    external: true
